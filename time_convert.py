@@ -14,11 +14,11 @@ def time_convert(timeStr):
     print(formatted_time)    
     return formatted_time
 
-# time_convert("12:30 am")
 
 
 
 
 
-# time_convert("3:30 pm")
+time_convert("12:30 am")
+time_convert("3:30 pm")
 time_convert("2:30 am")
