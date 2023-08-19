@@ -1,23 +1,18 @@
-def false_true(a,b,c):
+def false_true(a, b, c):
     result = 0
     
     if a > 0:
-            result +=1
-    if b> 0:
-            result +=1
+        result += 1
+    if b > 0:
+        result += 1
     if c > 0:
-            result +=1
-    print(result == 2 )       
-    return result == 2        
+        result += 1
+        
+    print(f"Positive numbers count: {result == 2}")
+    return result == 2
 
+a = int(input("Enter the value for a: "))
+b = int(input("Enter the value for b: "))
+c = int(input("Enter the value for c: "))
 
-
-false_true(2, 4, -3) 
-
-false_true(-4, 6, 8) 
-
-false_true(4, -6, 9) 
-
-false_true(-4, 6, 0)
-
-false_true(-14, -3, -4)
+false_true(a, b, c)
